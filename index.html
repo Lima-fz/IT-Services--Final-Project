@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Crafters</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Digital Transormation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero bg-dark text-white text-center py-5">
+    <h1>Welcome to Code Crafters</h1>
+    <p>Crafting Digital Solutions for Your Business</p>
+    <a href="#contact" class="btn btn-primary">Contact Us</a>
+  </header>
+
+  <!-- About Us Section -->
+<section id="about" class="container py-5">
+  <h2 class="text-center">Who We Are</h2>
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="who we are.PNG" alt="About Us Image" class="img-fluid rounded">
+    </div>
+    <div class="col-md-6">
+      <p class="text-center">At <strong>Code Crafters</strong>, we are a passionate team of digital experts dedicated to transforming your business. With years of experience in web development, app design, and digital marketing, we provide end-to-end solutions to make your brand stand out in the digital world.</p>
+      <p class="text-center"><strong>Our Mission:</strong> To empower businesses with cutting-edge digital tools to grow and succeed.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Services Section -->
+  <section id="services" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Our Services</h2>
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <img src="IMG_9620.JPG" alt="Web Development" class="img-fluid mb-3">
+          <h3>Web Development</h3>
+          <p>We build responsive and user-friendly websites to suit your business needs.</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="app develpement.PNG" alt="App Development" class="img-fluid mb-3">
+          <h3>App Development</h3>
+          <p>Custom mobile applications designed to enhance your business operations.</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="theme.WEBP" alt="Social Media" class="img-fluid mb-3">
+          <h3>Social Media</h3>
+          <p>We help you engage with your audience and grow your brand online.</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="google.WEBP" alt="Google Listing" class="img-fluid mb-3">
+          <h3>Google Listing</h3>
+          <p>Optimizing your Google My Business listing for better visibility.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container py-5">
+    <h2 class="text-center">Get In Touch</h2>
+    <p class="text-center">We'd love to hear from you! Reach out to us and let's discuss how we can help your business grow.</p>
+    <form action="mailto:lima.faizi@auaf.edu.af" method="POST" enctype="multipart/form-data">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="name">Your Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="email">Your Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Code Crafters | <a href="mailto:lima.faizi@auaf.edu.af">lima.faizi@auaf.edu.af</a> | +44 7548 293839 | London, United Kingdom</p>
+  </footer>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
